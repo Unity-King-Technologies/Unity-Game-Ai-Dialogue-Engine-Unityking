@@ -1,12 +1,12 @@
-# 🗣️ Unity Game AI Dialogue Engine  
+# Unity Game AI Dialogue Engine  
 ### Dynamic NPC Dialogue • Context Memory • Intent System • Quest Hooks
 
 Created and maintained by **Unity King**  
-🌐 https://unityking.com
+https://unityking.com
 
 ---
 
-## 🚀 Quick Start (Important – Read First)
+## Quick Start (Important – Read First)
 
 This repository contains **only the `Assets/` folder** with a complete **AI-powered Dialogue Engine**.
 
@@ -16,7 +16,7 @@ This repository contains **only the `Assets/` folder** with a complete **AI-powe
    - Unity 2021 LTS or newer recommended
 
 2. Copy the `Assets` folder from this repository  
-   👉 Paste it into your Unity project root
+   Paste it into your Unity project root
 
 3. Open Unity  
    - Scripts will auto-import
@@ -57,28 +57,28 @@ Assets/
 
 ---
 
-## 🧠 System Overview
+## System Overview
 
 The Dialogue Engine is built on **four core systems**:
 
-### 1️⃣ Dialogue Controller  
+### Dialogue Controller  
 Controls dialogue flow and NPC interaction lifecycle.
 
-### 2️⃣ Context & Memory System  
+### Context & Memory System  
 Remembers:
 - Player choices
 - NPC relationships
 - Past dialogue events
 - Quest states
 
-### 3️⃣ Intent System  
+### Intent System  
 Understands **what the player means**, not just what they click:
 - Greeting
 - Asking for help
 - Threatening
 - Accepting / rejecting quests
 
-### 4️⃣ Quest Hooks  
+### Quest Hooks  
 Dialogue directly affects:
 - Quest start
 - Quest progression
@@ -86,9 +86,9 @@ Dialogue directly affects:
 
 ---
 
-## 🧩 Core Components Explained
+## Core Components Explained
 
-### 🔹 DialogueController
+### DialogueController
 Main entry point for NPC dialogue.
 
 Responsibilities:
@@ -106,7 +106,7 @@ Attach this to **NPC GameObjects**.
 
 ---
 
-### 🔹 DialogueContext
+### DialogueContext
 
 Stores **runtime context**:
 
@@ -122,7 +122,7 @@ context.currentSpeaker
 
 ---
 
-### 🔹 DialogueMemory
+### DialogueMemory
 
 Persistent memory system.
 
@@ -138,7 +138,7 @@ memory.SetFlag("HelpedVillager", true);
 
 ---
 
-## 🧠 Intent System
+## Intent System
 
 The Intent System allows **natural-feeling dialogue**.
 
@@ -167,7 +167,7 @@ This allows:
 
 ---
 
-## 🌳 Dialogue Nodes & Graph
+## Dialogue Nodes & Graph
 
 ### DialogueNode
 
@@ -196,7 +196,7 @@ option.intent
 
 ---
 
-## 🧭 Quest Integration
+## Quest Integration
 
 ### QuestTrigger
 
@@ -218,7 +218,7 @@ Connects Dialogue Engine with your Quest System.
 
 ---
 
-## 🖥️ Dialogue UI
+## Dialogue UI
 
 ### DialogueUIController
 
@@ -236,7 +236,7 @@ Framework is **UI-agnostic**:
 
 ---
 
-## 🧪 Example NPC Setup
+## Example NPC Setup
 
 1. Create NPC GameObject
 2. Add:
@@ -257,7 +257,7 @@ NPC will:
 
 ---
 
-## 🧩 Extending the System
+## Extending the System
 
 You can easily add:
 
@@ -269,7 +269,7 @@ You can easily add:
 
 ---
 
-## 🎯 Use Cases
+## Use Cases
 
 * RPGs
 * Adventure games
@@ -279,17 +279,17 @@ You can easily add:
 
 ---
 
-## 📄 License
+## License
 
 MIT License
 Free for personal & commercial use.
 
 ---
 
-## 👑 Author
+## Author
 
 **Unity King**
-🌐 [https://unityking.com](https://unityking.com)
+ [https://unityking.com](https://unityking.com)
 Game AI • Systems • Tools
 
 ---
